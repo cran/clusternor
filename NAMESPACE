@@ -1,0 +1,11 @@
+useDynLib(clusternor, .registration = TRUE)
+
+import(Rcpp)
+export(Kmeans)
+export(Skmeans)
+export(KmeansPP)
+export(Hmeans)
+export(Xmeans)
+export(MiniBatchKmeans)
+export(FuzzyCMeans)
+export(Kmedoids)
