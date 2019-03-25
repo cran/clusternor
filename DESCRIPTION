@@ -1,6 +1,6 @@
 Package: clusternor
-Version: 0.0-1
-Date: 2019-03-13
+Version: 0.0-2
+Date: 2019-03-24
 Title: A Parallel Clustering Non-Uniform Memory Access ('NUMA')
         Optimized Package
 Authors@R: c(person("Disa", "Mhembere", role = c("aut", "cre"), email = "disa@cs.jhu.edu"), person("Neurodata (https://neurodata.io)", role="cph"))
@@ -16,9 +16,9 @@ Encoding: UTF-8
 LazyData: true
 NeedsCompilation: yes
 Suggests: testthat
-Packaged: 2019-03-16 00:15:44 UTC; disa
+Packaged: 2019-03-24 22:12:44 UTC; disa
 Author: Disa Mhembere [aut, cre],
   Neurodata (https://neurodata.io) [cph]
 Maintainer: Disa Mhembere <disa@cs.jhu.edu>
 Repository: CRAN
-Date/Publication: 2019-03-18 16:54:38 UTC
+Date/Publication: 2019-03-25 19:03:35 UTC

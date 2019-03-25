@@ -1,4 +1,4 @@
-359bd66946d58de5c9da44cecbc4a720 *DESCRIPTION
+8ebe82b2bf25cc4da109f24626e69089 *DESCRIPTION
 e0d6041a0f1b70f271b8c7e31491dfcf *NAMESPACE
 a71015e4a335814d34b82b11401e220f *R/clusternor.R
 99a05f90e59cf5d06a6b7e693251f592 *R/data.R
@@ -54,7 +54,7 @@ c2038797090a2a4beacb6b62ab58b3c6 *src/cknor/libkcommon/prune_stats.hpp
 269d282cd67e838b28c2992a049c2ced *src/cknor/libkcommon/util.hpp
 5ed1a5a82b7c50a49ccbaff188e6e283 *src/cknor/libman/Makefile
 15dae1f5d86e4e92bdacea8c5fce7b68 *src/cknor/libman/coordinator.cpp
-894ffec716e152898d9de6d92931d071 *src/cknor/libman/coordinator.hpp
+122deb2b98e281570dfe97aa38daeb28 *src/cknor/libman/coordinator.hpp
 40cd58912b490a0b5d9157fd5f722322 *src/cknor/libman/fcm.cpp
 aad02b704a2350f7d7026a569eb9637b *src/cknor/libman/fcm.hpp
 0ad5597f3c8e0691cdfc4f6b79cf2afc *src/cknor/libman/fcm_coordinator.cpp
@@ -74,14 +74,14 @@ aa410ed38d1e13214b620ade861f4977 *src/cknor/libman/hclust.hpp
 1c21e290b103ecaf138fc1b47288479d *src/cknor/libman/hclust_id_generator.hpp
 f48311e107233bdaf01e7fccfc7c7493 *src/cknor/libman/kmeans_coordinator.cpp
 447b5be9685ff05b6988b7c721f01461 *src/cknor/libman/kmeans_coordinator.hpp
-8165db366d176ac356eb4efaf5acdda5 *src/cknor/libman/kmeans_task_coordinator.cpp
+cd6215accef786d6dfd65486a5ba357b *src/cknor/libman/kmeans_task_coordinator.cpp
 7d4b94b4c20c17f8959afb6c8a3d462e *src/cknor/libman/kmeans_task_coordinator.hpp
 e0b4fd2b6b073e3aed8113a20aa16d9e *src/cknor/libman/kmeans_task_thread.cpp
 92061b61aca173d72cbde09b5323f501 *src/cknor/libman/kmeans_task_thread.hpp
 4e730b57981327e582bd200fb9000167 *src/cknor/libman/kmeans_thread.cpp
 b8aeac2eb8d0855daa80d0d235aa080e *src/cknor/libman/kmeans_thread.hpp
 2003a6230deb7f279332dc27198bed09 *src/cknor/libman/medoid.cpp
-77ea52c03d696101273f7895aaf9d542 *src/cknor/libman/medoid.hpp
+1746f32c3c73afc4fae37fcc7e995a46 *src/cknor/libman/medoid.hpp
 85c9ab9f2604dc037655fc8b3a8edb47 *src/cknor/libman/medoid_coordinator.cpp
 edea44080f8a675e146a03dc00d63951 *src/cknor/libman/medoid_coordinator.hpp
 6bf5701db68aac8148b93813954099df *src/cknor/libman/skmeans.cpp
@@ -100,7 +100,7 @@ e175da9f39c6040d8bf5a769ea6889d0 *src/cknor/libman/xmeans_coordinator.cpp
 cd197a67391094db280c0a74e48a351c *src/config.h
 d30f6b1b59393421276916d7a833fc9a *src/config.h.in
 cca4d806b6d023c9da9ddef5bf4c9637 *src/package_init.c
-0cd2186385322e5eba5783376976a09e *src/rinterface.cpp
+0a1a2982277d271c7c6c7021a8fc3edb *src/rinterface.cpp
 baa77c73feacbd1b038646b61da1c791 *tests/testthat.R
 89d94af093187642e5ecfbbd58ae6df7 *tests/testthat/test-fuzzy-cmeans.R
 41d019bd097b6670c9b9ba0b02edb73c *tests/testthat/test-gmeans.R
