@@ -6,10 +6,18 @@
 A soft variant of the kmeans algorithm where each data point are assigned a
  contribution weight to each cluster}
 \usage{
-FuzzyCMeans(data, centers, nrow = -1, ncol = -1,
-  iter.max = .Machine$integer.max, nthread = -1, fuzz.index = 2,
-  init = c("forgy", "none"), tolerance = 1e-06,
-  dist.type = c("sqeucl", "eucl", "cos", "taxi"))
+FuzzyCMeans(
+  data,
+  centers,
+  nrow = -1,
+  ncol = -1,
+  iter.max = .Machine$integer.max,
+  nthread = -1,
+  fuzz.index = 2,
+  init = c("forgy", "none"),
+  tolerance = 1e-06,
+  dist.type = c("sqeucl", "eucl", "cos", "taxi")
+)
 }
 \arguments{
 \item{data}{Data file name on disk (NUMA optimized) or In memory data matrix}

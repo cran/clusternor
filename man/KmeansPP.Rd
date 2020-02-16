@@ -4,8 +4,15 @@
 \alias{KmeansPP}
 \title{Perform the k-means++ clustering algorithm on a data matrix.}
 \usage{
-KmeansPP(data, centers, nrow = -1, ncol = -1, nstart = 1,
-  nthread = -1, dist.type = c("sqeucl", "eucl", "cos", "taxi"))
+KmeansPP(
+  data,
+  centers,
+  nrow = -1,
+  ncol = -1,
+  nstart = 1,
+  nthread = -1,
+  dist.type = c("sqeucl", "eucl", "cos", "taxi")
+)
 }
 \arguments{
 \item{data}{Data file name on disk (NUMA optimized) or In memory data matrix}

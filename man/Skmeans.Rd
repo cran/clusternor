@@ -6,9 +6,16 @@
 Similar to the k-means algorithm differing only in that data features are
  min-max normalized the dissimilarity metric is Cosine distance.}
 \usage{
-Skmeans(data, centers, nrow = -1, ncol = -1,
-  iter.max = .Machine$integer.max, nthread = -1, init = c("kmeanspp",
-  "random", "forgy", "none"), tolerance = 1e-06)
+Skmeans(
+  data,
+  centers,
+  nrow = -1,
+  ncol = -1,
+  iter.max = .Machine$integer.max,
+  nthread = -1,
+  init = c("kmeanspp", "random", "forgy", "none"),
+  tolerance = 1e-06
+)
 }
 \arguments{
 \item{data}{Data file name on disk (NUMA optmized) or In-memory data matrix}

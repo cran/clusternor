@@ -4,9 +4,18 @@
 \alias{Xmeans}
 \title{Perform a parallel hierarchical clustering using the x-means algorithm}
 \usage{
-Xmeans(data, kmax, nrow = -1, ncol = -1, iter.max = 20,
-  nthread = -1, init = c("forgy"), tolerance = 1e-06,
-  dist.type = c("eucl", "cos", "taxi"), min.clust.size = 1)
+Xmeans(
+  data,
+  kmax,
+  nrow = -1,
+  ncol = -1,
+  iter.max = 20,
+  nthread = -1,
+  init = c("forgy"),
+  tolerance = 1e-06,
+  dist.type = c("eucl", "cos", "taxi"),
+  min.clust.size = 1
+)
 }
 \arguments{
 \item{data}{Data file name on disk (NUMA optmized) or In memory data matrix}

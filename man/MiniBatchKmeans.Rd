@@ -5,11 +5,19 @@
 \title{A randomized dataset sub-sample algorithm that approximates the k-means
  algorithm. See: https://www.eecs.tufts.edu/~dsculley/papers/fastkmeans.pdf}
 \usage{
-MiniBatchKmeans(data, centers, nrow = -1, ncol = -1,
-  batch.size = 100, iter.max = .Machine$integer.max, nthread = -1,
-  init = c("kmeanspp", "random", "forgy", "none"), tolerance = 0.01,
+MiniBatchKmeans(
+  data,
+  centers,
+  nrow = -1,
+  ncol = -1,
+  batch.size = 100,
+  iter.max = .Machine$integer.max,
+  nthread = -1,
+  init = c("kmeanspp", "random", "forgy", "none"),
+  tolerance = 0.01,
   dist.type = c("sqeucl", "eucl", "cos", "taxi"),
-  max.no.improvement = 3)
+  max.no.improvement = 3
+)
 }
 \arguments{
 \item{data}{Data file name on disk (NUMA optimized) or In memory data matrix}
